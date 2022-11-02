@@ -481,13 +481,13 @@ body {
     margin-right: 32px;
 }
 
-.social-link{
+.social-link {
     display: block;
     height: 24px;
     width: 24px;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain
+    background-size: contain;
 }
 
 .social-link-tw {
@@ -500,4 +500,115 @@ body {
 
 .social-link-mail {
     background-image: url(../Lionic/img/Icons3.svg);
+}
+/* Join-us */
+.join-us {
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.join-us-title {
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+.join-us-descr {
+    margin-bottom: 20px;
+}
+
+.form {
+    padding-left: 55px;
+    padding-right: 55px;
+    height: 140px;
+}
+
+.form-input {
+    padding-left: 28px;
+    border: 1px solid #dadada;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    width: 251px;
+    height: 60px;
+}
+
+.form-select {
+    padding: 16px 28px;
+    border: 1px solid #dadada;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    width: 251px;
+    height: 60px;
+}
+
+.form-textarea {
+    padding: 16px 28px;
+    border: 1px solid #dadada;
+    border-radius: 20px;
+    resize: none;
+    padding: 16px 28px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+}
+
+.form-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+
+.form-left {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 140px;
+}
+.form-right {
+    width: 49%;
+}
+
+.btn-about-us {
+    padding: 25px 67px;
+    border-radius: 50px;
+    margin-bottom: 9px;
+    min-width: 230px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-bottom {
+    display: flex;
+    justify-content: end;
+}
+
+.form-check {
+    font-size: 12px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.form-check input {
+    margin-right: 8px;
+}
+
+.form-check a {
+    color:#3172B9;
+    border-bottom: 1px solid #3172B9;
 }
